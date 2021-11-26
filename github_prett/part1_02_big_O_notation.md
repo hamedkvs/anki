@@ -13,7 +13,11 @@ an algorith (or a piece of code) having O(n) means the performance is inversely 
 # an example of O(n)?
 linear search: going through all arrays element in order to find a special value; as we iterate through all elements if we the array size increases by ten times, the time it takes to go through all elements goes up by a factor of ten too.
 
-# if an algorithm has three parts like this: <br/>part_one (O()_1)<b/>part_two(O()_2)<b/>part_three(O()_3)<br/>how we find out the algorithm overall time complexty?
+# if an algorithm has three parts like this: 
+part_one (O()_1)
+part_two(O()_2)
+part_three(O()_3)
+how we find out the algorithm overall time complexty?
 as we ignore lower degree time complexities we only consider the biggest one: if time is O(n^2+n^3+5n) we would say the time complexity is O(n^3)
 
 # if we have three nested 'for's, with an O(1) operation inside the third for, what would be the time complexity?
