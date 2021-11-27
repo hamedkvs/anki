@@ -3,3 +3,10 @@ What are run-time complexities of static array?#lookup by index: O(1), lookup by
 Analize the run-time complexity for finding the index of an item in an array?#Best case: O(1), worst case: O(n), so -> the run-time complexity: O(n) (consider the worst case scenario)
 Vector vs ArrayList in Java# vectors grow 100% while Arraylists grow 50%. Vector mothods are synchronized
 What are the 2 limitations of arrays?#1.the size of the array have to be known at creation time 2.they are slow when we need to add or remove a lot of items from them 
+array access time complexity? why?#O(1), because memory address is calculated based on its index: array[index]: addr(e[0])+typeSize*index
+runtime complexity of array expansion (increasing the array size)?why?#O(n) since all elements will be copied to a new array with a larger size
+Runtime complexity of element deletion?why?#since by eliminating an element we need to shift others accordingly it's O(n) (worst case scenario)
+when does the worst case scenario of array deletion happen?#when the deleted element is the first element (index == 0)
+difference between Vector and ArrayList in terms of resizing when full#Vector increases the size by 100% while for ArrayList it's 50%
+difference between Vector and ArrayList in terms of synchronization?#Vector is synchronized
+what does it mean when we say X is synchronized?#it means only a single thread has access to its methods
